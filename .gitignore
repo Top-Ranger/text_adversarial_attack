@@ -1,0 +1,42 @@
+ Basic ignores
+.idea
+*.tar.gz
+*.tar
+__pycache__
+*.kdev4
+.kdev4/*
+
+# Documentation
+doc/*
+
+# Trained models
+*.h5
+*.json
+
+# Resulting images
+*.png
+
+# Datasets
+text_adversarial_attack/datasets/*
+text_adversarial_attack/datasets/*/*
+
+# Cache
+text_adversarial_attack/cache/*
+text_adversarial_attack/cache/*/*
+text_adversarial_attack/cache/*/*/*
+
+# Models
+text_adversarial_attack/models/*
+
+# Results
+text_adversarial_attack/adversarial_example/*
+text_adversarial_attack/adversarial_example_unsuccessful/*
+text_adversarial_attack/adversarial_example_input_unusable/*
+text_adversarial_attack/distillation_transferability-*/*
+text_adversarial_attack/distillation_adversarial_example-*/*
+text_adversarial_attack/distillation_adversarial_example_unsuccessful-*/*
+text_adversarial_attack/distillation_adversarial_example_input_unusable-*/*
+text_adversarial_attack/analysis_adversarial_example/*
+text_adversarial_attack/analysis_distillation_adversarial_example/*
+text_adversarial_attack/gradients/*
+text_adversarial_attack/analysis_adevrsarial_data_augmentation/*
