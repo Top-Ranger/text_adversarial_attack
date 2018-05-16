@@ -1,5 +1,18 @@
 # Increasing the robustness of deep neural networks for text classification by examining adversarial examples
-This repository containes code used for my master thesis 'Increasing the robustness of deep neural networks for text classification by examining adversarial examples'
+This repository containes code used for my [master thesis 'Increasing the robustness of deep neural networks for text classification by examining adversarial examples'](http://edoc.sub.uni-hamburg.de/informatik/volltexte/2018/238/).
+
+If you use this code please cite:
+```
+@mastersthesis{Soll18,
+    author = {Marcus Soll},
+    title = {Increasing the robustness of deep neural networks for text
+classification by examining adversarial examples},
+    school = {Universität Hamburg},
+    year = {2018},
+    address = {},
+    language = {eng},
+}
+```
 
 ## Required python modules
 * keras (tested version: 2.1.5)
